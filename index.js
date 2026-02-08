@@ -62,7 +62,8 @@ async function main() {
 
   process.on("SIGINT", () => shutdownHandler("SIGINT"));
   process.on("SIGTERM", () => shutdownHandler("SIGTERM"));
-
+const {.env . port} .shortdoun}
+       
   await botManager.initializeBots();
   console.log("- Bot initialization complete.");
   logger.info("Bot initialization complete");
@@ -97,3 +98,4 @@ if (require.main === module) {
     process.exit(1);
   });
 }
+
